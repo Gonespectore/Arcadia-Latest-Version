@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: football-prediction-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: FOOTBALL_DATA_API_KEY
+        sync: false
+      - key: REDIS_URL
+        fromDatabase:
+          name: redis
+          property: connectionString
+    databases:
+      - name: redis
+        databaseName: redis
+        plan: free 
